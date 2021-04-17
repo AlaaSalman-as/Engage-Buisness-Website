@@ -1,0 +1,458 @@
+body{
+    font-size:16px;
+    /*font-family:'Grandstander';*/
+    /*background-color: tomato;*/
+    margin:0px;
+    padding:0px;
+}
+
+
+/* الجزء العلوي الذي يحتوي الناف بار*/
+
+.one{
+    background-image:url('Group\ 2.png');
+    width:cover;
+    height:1000px;
+    background-repeat:no-repeat;
+    background-position:fixed;
+    background-size:cover;
+    margin-top:0px;
+    position:relative;
+}
+.navbar{
+    background-color:rgba(5,5,5,.1);
+    color:white;
+    width:100%;
+    height:100px;
+    position:fixed;
+    z-index:999999999;
+
+}
+.navbar img{
+    margin-left:40px;
+}
+.navbar button{
+    margin-right:40px;
+}
+.navbar .home{
+    margin-left:500px;
+}
+
+
+
+
+ /* THIS SECTION CONTENT THE TEXT IN THE FIRST PART*/
+.one1{
+    color:white;
+    height:200px;
+    width:40%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    top:350px;
+    left:400px;
+}
+.one .one1 p{
+    font-size:2rem;
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+/* END OF THE FIRST DECTION */
+
+
+
+
+/* THE SECOND SECTION START HERE */
+.two{
+    width:100%;
+    position:relative;
+    top:100px;
+    bottom:100px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    margin-left:-50px;
+}
+.two >div {
+    width:25%;
+    margin-left:50px;
+}
+.two h3{
+    color:#585779;
+    font-size:1.6rem;
+    position:relative;
+    top:20px;
+    left:85px;
+ }
+.two p{
+    width:250px;
+    color:#806899;
+    font-size:.5 rem;
+    position:relative;
+    left:80px;
+    top:30px;
+}
+.two img{
+    position:absolute;
+    top:20px;
+    margin-left:30px;
+}
+/* END OF THE SECOND SECTION */ 
+
+
+/* THE THIERD SECTION STARTS HERE */
+.three{
+    height:800px;
+    background-color:#F8F8F8;
+    position:relative;
+    top:250px;
+}
+.three .three1{
+    text-align:center;
+    position:relative;
+    top:100px;
+}
+.three .three1 > h3{
+    color:#888888;
+}
+.three .three2{
+    width:90%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    justify-content:space-between;
+    align-items:left center; 
+    position:relative;
+    top:200px;  
+    left:70px
+}
+.three .three2 > div{
+    width:28%;
+    height:420px;
+    background-color:white;
+    padding:20px;
+    /*margin-left:50px;*/
+
+}
+.three .three2 >div > p{
+    color:#9B889B;
+    position:relative;
+    top:30px;
+}
+.three .three2 >div> h2{
+    font-size:1rem;
+    position:relative;
+    top:30px;
+}
+.three .three2 >div > button{
+    position:relative;
+    top:30px;
+    color:#9B889B;
+}
+/* THE END OF THIRED SRCTION */
+
+
+/*THE FOURTHE SECTION STARTS HERE */
+.four{
+    width:100%;
+    position:relative;
+    top:350px;
+    /* z-index:0;*/
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-between;
+}
+.four > div{
+    width:40%
+}
+.four .four1{
+    /* margin-left:50px; */
+    position:relative;
+    bottom:100px;
+    left:120px;
+}
+.four .four1 p{
+    color:#9B889B;
+    font-size:1 rem;
+    position:relative;
+    top:30px;
+}
+
+.four .four1 div{
+    color:#9B889B;
+    position:relative;
+    top:100px;
+}
+.four .four1 button{
+    position:relative;
+    top:150px;
+}
+.four .four2{
+    position:relative;
+    right:100px;
+}
+/*  HERE IS THE END OF FOURTH SECTION */
+
+
+/* THE FIFTHE SECTION STARTS HERE */
+.five{
+    background-color:#F8F8F8;
+    height:700px;
+    position:relative;
+    top:450px;
+}
+.five img{
+    position:relative;
+    top:100px;
+    left:650px;
+}
+.five .five1{
+    width:90%;
+    position:relative;
+    top:150px;
+    left:80px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-between;
+}
+.five .five1 > div{
+    width:30%;
+    height:150px;
+    background-color:white;
+}
+.five .five1 >div >p{
+    color:#6F6F6F;
+    padding:10px;
+}
+.five .five1 >div >h5{
+    color:#6F6F6F;
+    padding:10px;
+}
+.five .five1 >div >h6{
+    color:#9B9B9B;
+    padding:10px;
+    position:relative;
+    bottom:20px;
+}
+.five .five2{
+    position:relative;
+    top:200px;
+    right:18px;
+}
+/* HERE THE END OF SECTION FIVE */
+
+
+/*HERE THE STERT OF SECTION SIX */
+.six{
+    position:relative;
+    top:550px;
+    left:220px;
+    width:80%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-between;
+}
+.six > div{
+    width:25%;
+}
+.six > div > img{
+    position:relative;
+    left:10px;
+    bottom:20px;
+}
+.six > div > h1{
+    color:#404040;
+    font-size:2 rem;
+}
+.six > div > h5{
+    color:#B8B8B8;
+    font-size:1 rem;
+}
+/* HERE IS THE END OF THE SEXTHE SECTION */
+
+
+
+/*HERE THE SEVENTHE SECTION START */
+.seven{
+    position:relative;
+    top:700px;
+    background-image:url('photo-1429667947446-3c93a979b7e0.webp');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    height:700px;
+    color:white;
+}
+.seven .seven1{
+    background-color:rgba(5,5,5,.5);
+    width:100%;
+    height:700px;
+    position:relative;
+    top:0px;
+    /*left:300px;*/
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center center;
+    padding:20px;
+}
+.seven .seven1 h1{
+    position:relative;
+    top:140px;
+}
+.seven .seven1 > p{
+    text-align:center;
+    font-size: 1.5rem;
+    position:relative;
+    top:50px;
+}
+.seven .seven1 > button{
+    position:relative;
+    top:5px;
+    width:150px;
+    height:70px;
+}
+/* END OF SECTION : SEVEN */
+
+
+
+
+/* HERE IS THE EIGHTHE SECTION STARTS */
+.eight{
+    position:relative;
+    top:900px;
+}
+.eight .eight1{
+    text-align:center;
+}
+.eight .eight1 > h3{
+    color:#88888C;
+}
+.eight .eight2{
+    width:80%;
+    position:relative;
+    top:40px; 
+    left:150px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-between;
+}
+.eight .eight2 > div{
+    width:30%;
+    position:relative;
+    top:50px;
+    /* bottom:20px;*/
+    margin-bottom:20px;
+}
+.eight .eight2 >div > p{
+    color:#7A7A7A;
+}
+/* THE END OF SECTION EIGHT */
+
+
+/* SECTION NINE STARTS HERE */
+.nine{
+    position:relative;
+    top:1100px;
+    background-color:#4CAF50;
+    height:200px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-between;
+}
+.nine .nine1{
+    position:relative;
+    left:100px;
+}
+.nine .nine1 h4{
+    color:#B9ECDF;
+}
+.nine .nine2 > button{
+    position:relative;
+    right:100px;
+}
+/* SECTION NINE ENDS HERE */
+
+
+/* HERE IS SECTION TEN STARTS */
+.ten{
+    background-color:#1F2021;
+    position:relative;
+    top:1100px;
+    width:100%;
+    height:300px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-between;
+}
+.ten >div{
+    width:25%;
+    position:relative;
+    top:30px;
+    padding:50px;
+    /*left:50px;*/
+}
+.ten > div > h2{
+    color:white;
+    font-size:1rem;
+    position:relative;
+    bottom:10px;
+    left:5px;
+}
+.ten >div >p{
+    color:#3D515F;
+    position:relative;
+    top:20px;
+}
+.ten >div>h5{
+    color:#3D515F;
+    position:relative;
+    top:20px;
+}
+
+/* SECTION TEN ENDS HERE */
+
+
+
+/* THE LAST SECTION STARTS HERE */
+.last{
+    background-color:#191919;
+    position:relative;
+    top:1100px;
+    height:80px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-between;
+}
+.last .last1{
+    position:relative;
+    left:50px;
+    color:white;
+}
+.last .last2{
+    position:relative;
+    right:50px;
+}
+
+
+
+
+/* CSS ENDS HERE */
